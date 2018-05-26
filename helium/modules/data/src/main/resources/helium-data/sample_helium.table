@@ -1,0 +1,35 @@
+{
+    "name": "SAMPLE_HELIUM",
+    "type": "TABLE",
+    "columns": 
+    [
+        {
+            "name": "HELIUM_ID",
+            "type": "INTEGER",
+            "length": "0",
+            "primaryKey": "true",
+            "identity": "true",
+            "precision": "",
+            "scale": ""
+        },
+        {
+            "name": "HELIUM_KEY",
+            "type": "VARCHAR",
+            "length": "20",
+            "primaryKey": "false",
+            "identity": "false",
+            "precision": "",
+            "scale": ""
+        },
+        {
+            "name": "HELIUM_VALUE",
+            "type": "VARCHAR",
+            "length": "20",
+            "primaryKey": "false",
+            "identity": "false",
+            "precision": "",
+            "scale": ""
+        }
+    ],
+  "dependencies": []
+}
