@@ -23,16 +23,11 @@
 
 	<modules>
 		<module>data</module>
-		<!--
-		<module>java</module>
-		-->
 		<module>javascript</module>
 		<module>html</module>
 	</modules>
 
 	<properties>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<maven.clean.plugin.version>3.0.0</maven.clean.plugin.version>
 
 		<content.repository.name>dirigiblelabs</content.repository.name>

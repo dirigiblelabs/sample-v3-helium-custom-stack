@@ -79,13 +79,11 @@
 			<artifactId>helium-data</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-<!--
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>helium-java</artifactId>
 			<version>${project.version}</version>
 		</dependency>
--->
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>helium-javascript</artifactId>
@@ -99,8 +97,6 @@
 	</dependencies>
 
 	<properties>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<dirigible.version>3.2.1-SNAPSHOT</dirigible.version>
 		<slf4j.version>1.7.5</slf4j.version>
 		<logback.version>1.2.3</logback.version>

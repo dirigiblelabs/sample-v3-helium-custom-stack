@@ -22,8 +22,6 @@
 	</scm>
 
 	<properties>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<maven.clean.plugin.version>3.0.0</maven.clean.plugin.version>
 
 		<content.repository.name>sample-v3-helium-javascript</content.repository.name>
