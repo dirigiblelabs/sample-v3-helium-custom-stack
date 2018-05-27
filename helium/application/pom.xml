@@ -5,13 +5,13 @@
 
 	<parent>
 		<groupId>io.dirigible.helium</groupId>
-		<artifactId>parent</artifactId>
+		<artifactId>helium-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<name>Helium</name>
-	<artifactId>application</artifactId>
+	<artifactId>helium-application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -76,26 +76,26 @@
 		<!-- Application - Helium -->
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>data</artifactId>
+			<artifactId>helium-data</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 <!--
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>java</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>javascript</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>html</artifactId>
+			<artifactId>helium-java</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 -->
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>helium-javascript</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>helium-html</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 
 	<properties>

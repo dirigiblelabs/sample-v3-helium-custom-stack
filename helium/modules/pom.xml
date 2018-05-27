@@ -5,13 +5,13 @@
 
 	<parent>
 		<groupId>io.dirigible.helium</groupId>
-		<artifactId>parent</artifactId>
+		<artifactId>helium-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<name>Helium - Modules</name>
-	<artifactId>modules</artifactId>
+	<artifactId>helium-modules</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -25,9 +25,9 @@
 		<module>data</module>
 		<!--
 		<module>java</module>
+		-->
 		<module>javascript</module>
 		<module>html</module>
-		-->
 	</modules>
 
 	<properties>

@@ -10,8 +10,8 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<name>Helium - Data</name>
-	<artifactId>helium-data</artifactId>
+	<name>Helium - HTML</name>
+	<artifactId>helium-html</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -26,8 +26,8 @@
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<maven.clean.plugin.version>3.0.0</maven.clean.plugin.version>
 
-		<content.repository.name>sample-v3-helium-data</content.repository.name>
-		<content.project.name>helium-data</content.project.name>
+		<content.repository.name>sample-v3-helium-html</content.repository.name>
+		<content.project.name>helium</content.project.name>
 
 		<content.scm.url>https://github.com/dirigiblelabs/${content.repository.name}</content.scm.url>
 		<content.scm.connection>scm:git:git://github.com/dirigiblelabs/${content.repository.name}.git</content.scm.connection>

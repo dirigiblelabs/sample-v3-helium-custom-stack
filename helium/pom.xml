@@ -11,7 +11,7 @@
 	<name>Helium - Parent</name>
 	<description>Helium Parent</description>
 	<groupId>io.dirigible.helium</groupId>
-	<artifactId>parent</artifactId>
+	<artifactId>helium-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
