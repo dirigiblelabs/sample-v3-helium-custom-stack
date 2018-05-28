@@ -1,7 +1,7 @@
 # Helium - Package
 
 [![Eclipse License](http://img.shields.io/badge/license-Eclipse-brightgreen.svg)](LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/dirigiblelabs/zeus-v3-package.svg)](https://github.com/dirigiblelabs/zeus-v3-package/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/dirigiblelabs/sample-v3-helium-custom-stack.svg)](https://github.com/dirigiblelabs/sample-v3-helium-custom-stack/graphs/contributors)
 
 
 ## License
