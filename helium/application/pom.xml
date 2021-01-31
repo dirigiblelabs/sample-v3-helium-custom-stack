@@ -6,13 +6,13 @@
 	<parent>
 		<groupId>io.dirigible.helium</groupId>
 		<artifactId>helium-parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.2-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<name>Helium</name>
 	<artifactId>helium-application</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<build>
@@ -97,7 +97,7 @@
 	</dependencies>
 
 	<properties>
-		<dirigible.version>3.2.1-SNAPSHOT</dirigible.version>
+		<dirigible.version>5.7.0</dirigible.version>
 		<slf4j.version>1.7.5</slf4j.version>
 		<logback.version>1.2.3</logback.version>
 	</properties>
