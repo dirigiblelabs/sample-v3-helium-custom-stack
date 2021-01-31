@@ -1,4 +1,4 @@
-var factory = require('db/v3/dao');
+var factory = require('db/v4/dao');
 var dao = factory.create({
 	'table': 'SAMPLE_HELIUM',
 	'properties': [
