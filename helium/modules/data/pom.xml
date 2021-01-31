@@ -6,13 +6,13 @@
 	<parent>
 		<groupId>io.dirigible.helium</groupId>
 		<artifactId>helium-modules</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.2-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<name>Helium - Data</name>
 	<artifactId>helium-data</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<scm>
