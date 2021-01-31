@@ -1,5 +1,5 @@
 var helium = require("sample/helium");
-var isInert = helium.isInert();
+var isInert = JSON.stringify(helium.isInert());
 console.info(isInert);
 
 var response = require("http/v4/response");

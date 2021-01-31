@@ -1,4 +1,4 @@
 exports.isInert = function() {
-	var output = io.dirigible.helium.HeliumFacade.isInert();
+	var output = Packages.io.dirigible.helium.HeliumFacade.isInert();
 	return output;
 };

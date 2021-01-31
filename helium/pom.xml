@@ -41,9 +41,12 @@
 	</modules>
 
 	<properties>
+		<dirigible.version>5.7.0</dirigible.version>
 		<maven.resource.plugin.version>3.0.2</maven.resource.plugin.version>
 		<maven.clean.plugin.version>3.0.0</maven.clean.plugin.version>
 		<maven.compiler.plugin.version>2.3.2</maven.compiler.plugin.version>
 		<maven.scm.plugin.version>1.9</maven.scm.plugin.version>
+		<maven.compiler.source>11</maven.compiler.source>
+    	<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 </project>
