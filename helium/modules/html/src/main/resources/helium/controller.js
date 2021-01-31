@@ -11,7 +11,7 @@
 angular.module('helium', [])
 .controller('HeliumController', ['$scope', '$http', function ($scope, $http) {
 
-	$http.get('/services/v3/js/helium-service/service.js').then(function(response) {
+	$http.get('/services/v4/js/helium-service/service.js').then(function(response) {
 		$scope.properties = response.data;
 	});
 
