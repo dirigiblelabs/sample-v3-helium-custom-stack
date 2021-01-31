@@ -1,5 +1,5 @@
-var rs = require('http/v3/rs');
-var response = require('http/v3/response');
+var rs = require('http/v4/rs');
+var response = require('http/v4/response');
 var dao = require('helium-service/dao.js');
 
 // HTTP 200
@@ -63,7 +63,7 @@ rs.service()
 		.post(function(ctx, request, response) {
 			var entity = request.getJSON();
 			entity.id = dao.create(entity);
-			response.setHeader('Content-Location', '/services/v3/js/helium-service/service.js/' + entity.id);
+			response.setHeader('Content-Location', '/services/v4/js/helium-service/service.js/' + entity.id);
 			sendResponseCreated(entity);
 		})
 	.resource('{id}')
