@@ -1,3 +1,14 @@
+# Deprecated
+
+This repository is now **Deprecated**.
+
+The sample is applicable for the following Eclipse Dirigible versions:
+- `5.x`
+- `6.x`
+- `7.x`
+
+The updated version of the sample can be found here: https://github.com/dirigiblelabs/sample-custom-stack
+
 # Helium - Package
 
 [![Eclipse License](http://img.shields.io/badge/license-Eclipse-brightgreen.svg)](LICENSE)
